@@ -90,7 +90,7 @@ function realizarSaque(saldoAtual:number):number{
 
     }
 }
-
+//Função para validação e transferência do dinheiro
 function transferencia(saldoAtual:number, historicoTransferencia:number []):number{
     
     let transferir = lerNumero("Quanto você quer transferir: ");
