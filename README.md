@@ -1,39 +1,43 @@
-# 🏦 Caixa eletrônico
+# 🏧 Simulador de Caixa Eletrônico (ATM)
 
-
-
----
-
-## 🚀 Tecnologias
-
-- Node.js
-- TypeScript
-- npm
+Um projeto de console interativo desenvolvido em **TypeScript** que simula as operações básicas de um caixa eletrônico. O sistema possui autenticação de usuário e permite realizar transações financeiras no terminal utilizando a biblioteca `prompt-sync`.
 
 ---
 
+## 📋 Sobre o Projeto
 
-## ⚙️ Instalação
+Este projeto foi criado para praticar a lógica de programação, manipulação de loops, funções, arrays e validação de dados em TypeScript. O programa funciona inteiramente via linha de comando (CLI) e mantém o estado da conta (saldo e histórico) enquanto a sessão estiver ativa.
 
-### 1. Clone o repositório
+---
 
-```bash
-git clone URL_DO_REPOSITORIO
-2. Acesse a pasta do projeto
-cd nome-do-projeto
-3. Instale as dependências
-npm install
-▶️ Executando o projeto
-Modo desenvolvimento
-npm run dev
-Build do projeto
-npm run build
-Executar versão compilada
-npm start
-📌 Requisitos
-Node.js (versão 18 ou superior)
-npm instalado
-🧠 Sobre o projeto
+## ✨ Funcionalidades
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos de desenvolvimento backend utilizando Node.js com TypeScript, incluindo organização de pastas, scripts npm e execução em ambiente de desenvolvimento e produção.
+* **🔒 Sistema de Login:** Autenticação de usuário com limite de 3 tentativas de acesso.
+* **💰 Depósito:** Adição de saldo à conta com validação de valores positivos.
+* **💵 Saque:** Retirada de dinheiro com verificação de saldo disponível.
+* **🏦 Transferência:** Envio de valores com registro automático no histórico.
+* **📊 Consulta de Saldo:** Exibição do saldo atualizado em tempo real.
+* **📜 Histórico de Transferências:** Lista detalhada de todas as transferências realizadas na sessão.
+* **🛡️ Validação de Entrada:** Prevenção de erros ao forçar o usuário a digitar apenas números válidos nas transações.
 
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **TypeScript:** Linguagem principal do projeto.
+* **Node.js:** Ambiente de execução.
+* **Prompt-sync:** Biblioteca para captura de entradas do usuário no terminal.
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+
+### Passo a passo
+
+1. **Clone o repositório ou crie a pasta do projeto:**
+   ```bash
+   mkdir caixa-eletronico
+   cd caixa-eletronico
