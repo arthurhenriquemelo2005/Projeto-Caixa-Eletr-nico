@@ -1,4 +1,4 @@
-//Fazendo import do PromptSync para pegar os inputs do usuários
+//Fazendo import do PromptSync para pegar os inputs digitados pelos usuários
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
