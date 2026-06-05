@@ -4,13 +4,13 @@ Um projeto de console interativo desenvolvido em **TypeScript** que simula as op
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto foi criado para praticar a lógica de programação, manipulação de loops, funções, arrays e validação de dados em TypeScript. Atividade da TASCOM ACADEMY.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * **🔒 Sistema de Login:** Autenticação de usuário com limite de 3 tentativas de acesso.
 * **💰 Depósito:** Adição de saldo à conta com validação de valores positivos.
