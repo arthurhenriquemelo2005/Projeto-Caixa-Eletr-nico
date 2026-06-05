@@ -1,6 +1,6 @@
-# 📦 Nome do Projeto
+# 🏦 Caixa eletrônico
 
-Caixa eletrônico
+
 
 ---
 
@@ -12,16 +12,6 @@ Caixa eletrônico
 
 ---
 
-## 📁 Estrutura do Projeto
-
-
-src/
-├── index.ts
-├── services/
-├── controllers/
-
-
----
 
 ## ⚙️ Instalação
 
