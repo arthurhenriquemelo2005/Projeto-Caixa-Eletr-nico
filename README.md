@@ -1,4 +1,4 @@
-# 🏧 Simulador de Caixa Eletrônico (ATM)
+# 🏦 Simulador de Caixa Eletrônico 
 
 Um projeto de console interativo desenvolvido em **TypeScript** que simula as operações básicas de um caixa eletrônico. O sistema possui autenticação de usuário e permite realizar transações financeiras no terminal utilizando a biblioteca `prompt-sync`.
 
@@ -6,7 +6,7 @@ Um projeto de console interativo desenvolvido em **TypeScript** que simula as op
 
 ## 📋 Sobre o Projeto
 
-Este projeto foi criado para praticar a lógica de programação, manipulação de loops, funções, arrays e validação de dados em TypeScript. O programa funciona inteiramente via linha de comando (CLI) e mantém o estado da conta (saldo e histórico) enquanto a sessão estiver ativa.
+Este projeto foi criado para praticar a lógica de programação, manipulação de loops, funções, arrays e validação de dados em TypeScript. Atividade da TASCOM ACADEMY.
 
 ---
 
@@ -28,16 +28,5 @@ Este projeto foi criado para praticar a lógica de programação, manipulação 
 * **Node.js:** Ambiente de execução.
 * **Prompt-sync:** Biblioteca para captura de entradas do usuário no terminal.
 
----
 
-## 🚀 Como Executar o Projeto
 
-### Pré-requisitos
-Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
-
-### Passo a passo
-
-1. **Clone o repositório ou crie a pasta do projeto:**
-   ```bash
-   mkdir caixa-eletronico
-   cd caixa-eletronico
